@@ -2,3 +2,5 @@
 *.conf
 *.glob
 Makefile
+.coqdeps.d
+*.aux
