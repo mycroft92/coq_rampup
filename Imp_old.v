@@ -239,6 +239,7 @@ Coercion ANum : nat >-> aexp.
 Definition bool_to_bexp (b : bool) : bexp :=
   if b then BTrue else BFalse.
 Coercion bool_to_bexp : bool >-> bexp.
+
 Bind Scope imp_scope with aexp.
 Bind Scope imp_scope with bexp.
 Delimit Scope imp_scope with imp.
